@@ -50,6 +50,16 @@ ShowToc = true
   favicon32x32 = "/favicons/favicon-32x32.png"
   apple_touch_icon = "/favicons/apple-touch-icon.png"
 
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+
 [menu]
 
   [[menu.main]]
@@ -67,6 +77,11 @@ ShowToc = true
     name = "cv"
     url = "/cv"
     weight = 3
+  [[menu.main]]
+  identifier = "search"
+  name = "search"
+  url = "/search"
+  weight = 4
 
 [taxonomies]
 category = "categories"
@@ -100,3 +115,5 @@ series = "series"
   [services.twitter]
     disableInlineCSS = true
 
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
