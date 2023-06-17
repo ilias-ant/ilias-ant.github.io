@@ -43,6 +43,12 @@ ShowToc = true
     [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/ilias-ant"
+  
+  [params.assets]
+  favicon = "/favicons/favicon.ico"
+  favicon16x16 = "/favicons/favicon-16x16.png"
+  favicon32x32 = "/favicons/favicon-32x32.png"
+  apple_touch_icon = "/favicons/apple-touch-icon.png"
 
 [menu]
 
