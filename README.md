@@ -1,6 +1,6 @@
 # ilias-ant.github.io
 
-My personal website. #wip
+My personal website.
 
 Built with:
 - [Go](https://go.dev/) 1.20.5
