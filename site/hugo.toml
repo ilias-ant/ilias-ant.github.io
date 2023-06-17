@@ -1,0 +1,60 @@
+baseURL = 'https://ilias-ant.github.io/'
+author = "Ilias Antonopoulos"
+copyright = "Copyright © 2023–2019, Steve Francia and the Hugo Authors; all rights reserved."
+relativeURLs = true
+languageCode = 'en-us'
+title = 'Ilias Antonopoulos'
+theme = 'PaperMod'
+paginate = 3
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog"
+    weight = 2
+  [[menu.main]]
+    identifier = "cv"
+    name = "cv"
+    url = "/cv"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
