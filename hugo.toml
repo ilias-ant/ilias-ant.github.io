@@ -1,13 +1,48 @@
-baseURL = 'https://ilias-ant.github.io/'
+baseURL = "https://ilias-ant.github.io/"
 author = "Ilias Antonopoulos"
-copyright = "Copyright © 2023–2019, Steve Francia and the Hugo Authors; all rights reserved."
+copyright = "Copyright © 2023, Ilias Antonopoulos"
 relativeURLs = true
-languageCode = 'en-us'
-title = 'Ilias Antonopoulos'
-theme = 'PaperMod'
+languageCode = "en-us"
+title = "Ilias Antonopoulos"
+theme = "PaperMod"
 paginate = 3
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[params]
+defaultTheme = "auto"
+env = "production"
+description = "gg"
+author = "Ilias Antonopoulos"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+
+  [params.profileMode]
+  enabled = true
+  title = "Hi there 👋"
+  subtitle = "Welcome to my space."
+  imageUrl = "/me.png"
+  imageTitle = "me"
+  imageWidth = 120
+  imageHeight = 120
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ilias-ant"
+
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/ilias-ant"
 
 [menu]
 
@@ -58,3 +93,4 @@ series = "series"
 
   [services.twitter]
     disableInlineCSS = true
+
