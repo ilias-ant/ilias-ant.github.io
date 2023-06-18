@@ -13,6 +13,7 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
+googleAnalytics = "G-K5FF1NBVCL"
 
 [params]
 defaultTheme = "auto"
