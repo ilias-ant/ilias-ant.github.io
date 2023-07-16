@@ -1,9 +1,9 @@
 ---
-title: "Adversarial validation: should i trust my validation set?"
-date: "2023-06-16"
+title: "Adversarial Validation: Should i trust my validation dataset?"
+date: "2023-07-16"
 draft: true
 
---
+---
 
 A common workflow in machine learning projects (especially in Kaggle competitions) is:
 
