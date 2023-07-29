@@ -35,8 +35,8 @@ ShowToc = true
   subtitle = "Welcome to my space."
   imageUrl = "/me.png"
   imageTitle = "me"
-  imageWidth = 120
-  imageHeight = 120
+  imageWidth = 160
+  imageHeight = 160
     [[params.socialIcons]]
     name = "github"
     url = "https://github.com/ilias-ant"
@@ -74,15 +74,21 @@ ShowToc = true
     url = "/blog"
     weight = 2
   [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects"
+    weight = 3
+  [[menu.main]]
     identifier = "cv"
     name = "cv"
     url = "/cv"
-    weight = 3
+    weight = 4
+
   [[menu.main]]
   identifier = "search"
   name = "search"
   url = "/search"
-  weight = 4
+  weight = 5
 
 [taxonomies]
 category = "categories"
