@@ -1,4 +1,4 @@
 ---
 ---
 
-{{< pdfReader "/cv_20230722.pdf" >}}
+{{< pdfReader "/cv_20231223.pdf" >}}
