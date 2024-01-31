@@ -1,5 +1,5 @@
 ---
-title: "adversarial validation: can i trust my validation dataset?"
+title: "Adversarial Validation: can i trust my validation dataset?"
 date: "2023-07-22"
 draft: false
 category: posts
