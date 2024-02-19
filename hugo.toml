@@ -1,6 +1,6 @@
 baseURL = "https://ilias-ant.github.io/"
 author = "Ilias Antonopoulos"
-copyright = "Copyright © 2023, Ilias Antonopoulos"
+copyright = "Copyright © 2024, Ilias Antonopoulos"
 relativeURLs = true
 languageCode = "en-us"
 title = "Ilias Antonopoulos"
