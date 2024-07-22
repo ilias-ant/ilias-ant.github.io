@@ -18,7 +18,7 @@ googleAnalytics = "G-K5FF1NBVCL"
 [params]
 defaultTheme = "auto"
 env = "production"
-description = "gg"
+description = "Welcome to my space."
 author = "Ilias Antonopoulos"
 ShowShareButtons = true
 ShowReadingTime = true
