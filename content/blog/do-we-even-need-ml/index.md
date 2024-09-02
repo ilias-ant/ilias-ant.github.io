@@ -62,3 +62,8 @@ When is ML the right approach?
 - **the cost of wrong predictions it's cheap.**
 - **it's at scale.**
 - **the patterns are constantly changing.**
+
+Next time you're faced with a problem that you think ML might be the right tool for, consider these 9 criteria. Go 
+through each one of them and see if they apply to your problem. Make sure that all of them are met before you commit to 
+an ML solution. If not, chances are that there exists a simpler, more cost-effective solution for this problem. 
+Take some time to think what this solution might be.
