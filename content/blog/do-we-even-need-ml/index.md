@@ -8,7 +8,13 @@ tags:
   - problem-solving
 keywords:
   - machine-learning
-  - ML
+  
+cover:
+  image: "blog-posts/do-we-even-need-ml/cover.png"
+  alt: "counting"
+  caption: "choosing the right tools for the job - image created by DALL-E model."
+  relative: false
+  responsiveImages: true
 
 #cover:
 #  image: "blog-posts/adversarial-validation/cover.png"
