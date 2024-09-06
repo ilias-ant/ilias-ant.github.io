@@ -49,9 +49,7 @@ Coincidentally, the last couple of weeks I have been reading [Chip Huyen](https:
 This realization, that ML is not always the right tool for the job, is one of the main takeaways from the book. 
 
 Chip went a step further and created a list of 9 criteria that we should consider before commiting to an ML solution for
-our problem. I found this list to be very accurate & useful, so decided to share it here:
-
-When is ML the right approach?
+our problem. I found this list to be very accurate & useful, so decided to share it here. ML is the right approach when:
 
 - **the system has the capacity to learn.**
 - **there are patterns to learn, and they are complex.**
