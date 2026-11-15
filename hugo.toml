@@ -113,7 +113,7 @@ series = "series"
     privacyEnhanced = true
 
 [pagination]
-pagerSize = 3
+pagerSize = 6
 
 [services]
 

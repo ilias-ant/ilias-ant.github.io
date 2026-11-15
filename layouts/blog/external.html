@@ -1,0 +1,14 @@
+<!doctype html>
+{{- /* Redirect stub for posts published elsewhere (front matter: layout: external, externalURL). */ -}}
+<html lang="{{ site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }} | {{ site.Title }}</title>
+  <link rel="canonical" href="{{ .Params.externalURL }}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ .Params.externalURL }}">
+</head>
+<body>
+  <p>This post lives on Substack: <a href="{{ .Params.externalURL }}">{{ .Title }}</a></p>
+</body>
+</html>
