@@ -1,11 +1,10 @@
 baseURL = "https://ilias-ant.github.io/"
 author = "Ilias Antonopoulos"
-copyright = "Copyright © 2025, Ilias Antonopoulos - "
+copyright = "Copyright © Ilias Antonopoulos"
 relativeURLs = true
-languageCode = "en-us"
+locale = "en-US"
 title = "Ilias Antonopoulos"
 theme = "PaperMod"
-paginate = 3
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 enableRobotsTXT = true
@@ -13,7 +12,6 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
-googleAnalytics = "G-K5FF1NBVCL"
 
 [params]
 defaultTheme = "auto"
@@ -114,7 +112,13 @@ series = "series"
     disabled = false
     privacyEnhanced = true
 
+[pagination]
+pagerSize = 3
+
 [services]
+
+  [services.googleAnalytics]
+    id = "G-K5FF1NBVCL"
 
   [services.instagram]
     disableInlineCSS = true
